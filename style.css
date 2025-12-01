@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(0, 0%, 95%);
+}
+
+.main{
+   
+    height: 50%;
+    width: 50%;
+    display: flex;
+
+}
+
+#card1{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+
+}
+
+#card2{
+    background-color:hsl(184, 100%, 22%);
+    
+
+}
+
+#card3{
+   background-color:hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card{
+    height: 80%;
+    
+    /* text-align: left; */
+    padding: 40px;
+    
+}
+
+h1{
+    
+    color:  hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+p{
+    
+    color:  hsl(0, 0%, 95%);
+    height: 140px;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    margin: 0px;
+}
+
+button{
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    padding: 10px 25px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+
+   
+}
+
+#card1 button{
+    color: hsl(31, 77%, 52%);
+}
+
+#card1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+#card2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+#card3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 400px){
+    .main{
+    display: flex;
+    flex-direction: column;
+    }
+    .card{
+        border-radius: 10px;
+    }
+}
